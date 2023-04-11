@@ -32,4 +32,4 @@ def read_json(path: str) -> str:
 
 
 start = os.getcwd()
-categories_text = read_json(start+"\\data\\categories\\categories.json")
+categories_text = read_json(start+"/data/categories/categories.json")
